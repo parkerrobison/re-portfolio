@@ -1,6 +1,9 @@
 import React from 'react';
 import portrait2 from '../../assets/images/portrait/portrait2.JPG'
 
+// WHEN I am presented with the About Me section
+// THEN I see a recent photo of the developer and a short bio about them
+
 function About() {
     return(
         <section className='my-5'>
