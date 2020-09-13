@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
 import About from './components/About';
-import Footer from './components/Footer'
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 // AS AN employer looking for candidates with experience building single-page applications
 // I WANT to view a potential employee's deployed React portfolio of work samples
@@ -19,6 +20,7 @@ function App() {
     <div>
       <Header></Header>
       <main>
+        <Portfolio></Portfolio>
         <About></About>
       </main>
       <Footer></Footer>
