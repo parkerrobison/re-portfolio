@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact'
 import Footer from './components/Footer';
 
 // AS AN employer looking for candidates with experience building single-page applications
@@ -18,10 +19,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
+      
       <Header></Header>
       <main>
+        <ContactForm></ContactForm>
         <Portfolio></Portfolio>
         <About></About>
+        
       </main>
       <Footer></Footer>
     </div>
