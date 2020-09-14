@@ -8,8 +8,8 @@ function Resume() {
 return(
     <section>
         <h2>Resume</h2>
-        <a href={prResume[0].filePath} download>
-            Download my Resume
+        <a className= 'resume-download' href={prResume[0].filePath} download>
+            Download my resume
         </a>
         <div>
             <h4>Front-end Experience</h4>

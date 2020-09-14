@@ -40,7 +40,7 @@ function ContactForm() {
         console.log(formState);
     }
     return(
-        <section>
+        <section className='contact-container'>
             <h1>Contact me</h1>
             <p>If you'd like to reach out to me please email me at parkerobison@gmail.com</p>
             <form id='contact-form' onSubmit={handleSubmit}>
@@ -65,8 +65,6 @@ function ContactForm() {
             </form>
         </section>
     )
-
-
 }
 
 export default ContactForm;

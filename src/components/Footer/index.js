@@ -1,4 +1,10 @@
 import React from 'react';
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faTwitter } from '@fortawesome/free-solid-svg-icons';
+
+
+// library.add()
 
 // WHEN I view the footer
 // THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles,

@@ -19,10 +19,13 @@ function Navigation(props) {
             <ul className="flex-row">
                 {pages.map((page) => (
                     <li
-                        className='mx-1'
+                        className={`mx-1 ${
+                        props.currentPage.name === page.name && 'navActive'
+                        }`}
                         key={page.name}
                     >
-                        <span onClick={ ()=> props.handleSubmit(page.name)}>
+                        <span onClick={ ()=> props.handleSubmit(page.name)}
+                        >
                             {page.name}
                         </span>
                     </li>

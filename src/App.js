@@ -27,7 +27,9 @@ function App() {
     <div>
       
       <Header 
-        handleSubmit={handleSubmit}></Header>
+        handleSubmit={handleSubmit}
+        currentPage= {currentPage}
+        setCurrentPage= {setCurrentPage}></Header>
       <main>
         {currentPage === 'Contact' ?   <ContactForm />:
         currentPage === 'Portfolio' ? <Portfolio />:

@@ -8,7 +8,9 @@ function About() {
     return(
         <section className='my-5'>
             <h1 id='about'>About Me</h1>
-            <img src={portrait2} className='my-2' style={{ width: '15%' }} alt='portrait' />
+            <div className='image-cropper'>
+                <img src={portrait2} className='my-2 portrait' style={{ width: '15%' }} alt='portrait' />
+            </div>
             <p>
                 Hello! My name is Parker Robison. I graduated from USU with a Bachelors degree in Kinesiology. In desiring to further my education and expand my skills,
                 I enrolled in the University of Utah's coding bootcamp. I'm fairly new to development but I'm excited to learn more! I am familiar with 
