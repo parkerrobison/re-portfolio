@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact'
+import Resume from './components/Resume'
 import Footer from './components/Footer';
 
 // AS AN employer looking for candidates with experience building single-page applications
@@ -17,15 +18,21 @@ import Footer from './components/Footer';
 // THEN the About Me title and section are selected by default
 
 function App() {
+  const [currentPage, setCurrentPage]= useState('')
+  const handleSubmit = (page) => {
+       console.log(page)
+       setCurrentPage(page)
+  }
   return (
     <div>
       
-      <Header></Header>
+      <Header 
+        handleSubmit={handleSubmit}></Header>
       <main>
-        <ContactForm></ContactForm>
-        <Portfolio></Portfolio>
-        <About></About>
-        
+        {currentPage === 'Contact' ?   <ContactForm />:
+        currentPage === 'Portfolio' ? <Portfolio />:
+        currentPage === 'Resume' ? <Resume />:
+        <About />}        
       </main>
       <Footer></Footer>
     </div>

@@ -1,0 +1,30 @@
+[
+    {
+        "ProjectName": "Workday-Scheduler",
+        "imagePath": "/images/projects/5.jpg"
+    },
+
+    {
+        "ProjectName": "Swap-Squad",
+        "imagePath": "/images/projects/4.jpg"
+    },
+
+    {
+        "ProjectName": "Run-Buddy",
+        "imagePath": "/images/projects/3.jpg"
+    },
+
+    {
+        "ProjectName": "Note-Taker",
+        "imagePath": "/images/projects/2.jpg"
+    },
+
+    {
+        "ProjectName": "Just-Breathe",
+        "imagePath": "/images/projects/1.jpg"
+    },
+    {
+        "ProjectName": "Git-it-Done",
+        "imagePath": "/images/projects/0.jpg"
+    }
+]

@@ -9,7 +9,7 @@ function Portfolio() {
     return(
         <section>
             <h1>Portfolio</h1>
-                <div className='flex-row'>
+                <div>
                     <Project></Project>
                 </div>
         </section>

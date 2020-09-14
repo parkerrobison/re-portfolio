@@ -5,11 +5,12 @@ import Navigation from '../Navigation';
 // THEN I am presented with the developer's name and navigation
 // with titles corresponding to different sections of the portfolio
 
-function Header () {
+function Header (props) {
     return(
         <header className='flex-row'>
             <h1>Parker Robison</h1>
-            <Navigation></Navigation>
+            <Navigation
+            handleSubmit={props.handleSubmit}></Navigation>
         </header>
     )
 }
