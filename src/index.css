@@ -246,7 +246,7 @@ textarea {
 .portrait {
   object-fit: cover;
   border-radius: 50%;
-  height: 150px;
+  height: 200px;
   width: 100px;
   border: 8px solid var(--sea);
 }
