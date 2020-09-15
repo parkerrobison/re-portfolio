@@ -13,6 +13,8 @@ function Project() {
                                 alt={p.ProjectName}
                                 className= "img-thumbnail project-image mx-1" 
                             />
+                            <a href={p.githubRepo} target='_blank' rel="noopener noreferrer" className="gh-link">GitHub Repo</a>
+                            <a href={p.deployedApp} target='_blank' rel="noopener noreferrer" className="site-link">Website</a>
                         </div>)
 
                 })}

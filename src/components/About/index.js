@@ -9,8 +9,9 @@ function About() {
                 <img src={portrait2} className='my-2 portrait' style={{ width: '15%' }} alt='portrait' />
             </div>
             <p>
-                Hello! My name is Parker Robison. I graduated from USU with a Bachelors degree in Kinesiology. In desiring to further my education and expand my skills,
-                I enrolled in the University of Utah's coding bootcamp. As a full stack developer, I'm focused on developing inspiring apps and websites. 
+                Hello! My name is Parker Robison. I enjoy coding, being outdoors, photography, and being active. I graduated from USU with a Bachelors degree in Kinesiology. In desiring to further my education and expand my skills,
+                I enrolled in the University of Utah's coding bootcamp. As a full stack developer, 
+                I'm focused on developing inspiring and helpful applications and websites. 
             </p>
         </section>
     )

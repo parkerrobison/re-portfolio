@@ -37,7 +37,7 @@ body {
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
-  background-image: linear-gradient(to bottom, var(--stormy) 60% , var(--desert));
+  background-image: linear-gradient(to bottom right, var(--dark), var(--stormy), var(--desert));
   color: var(--darker);
   font-family: Arial;
 
@@ -254,7 +254,9 @@ textarea {
   width: 25%;
   text-align: center;
 }
-
+.gh-link, .site-link {
+  color: var(--darker);
+}
 .project-container {
   display: flex;
   
