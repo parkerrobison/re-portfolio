@@ -1,13 +1,15 @@
 import React from 'react';
 import projects from '../../utils/project.json';
-// import {Row, Col, Container} from 'reactstrap';
+import {Row, Col, Container} from 'reactstrap';
 
 function Project() {
     return(
-            <div className='project-container'>
+        <Container>
+            {/* <div className='project-container'> */}
+            <Row>
                 {projects.map((p, i) => {
                     return(
-                        <div className='project-wrapper' key={i} md={4}>
+                        <Col className='project-wrapper' key={i} md={4}>
                             <h2>{p.ProjectName}</h2>
                             <img src={p.imagePath} 
                                 alt={p.ProjectName}
@@ -15,10 +17,12 @@ function Project() {
                             />
                             <a href={p.githubRepo} target='_blank' rel="noopener noreferrer" className="gh-link">GitHub Repo</a>
                             <a href={p.deployedApp} target='_blank' rel="noopener noreferrer" className="site-link">Website</a>
-                        </div>)
+                        </Col>)
 
                 })}
-            </div>
+                </Row>
+             {/* </div> */}
+            </Container>
     )
 }
 export default Project;
