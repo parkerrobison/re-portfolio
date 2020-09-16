@@ -20,7 +20,7 @@ function Navigation(props) {
                 {pages.map((page) => (
                     <li
                         className={`mx-1 ${
-                        props.currentPage.name === page.name && 'navActive'
+                        props.currentPage === page.name ? 'navActive' : ''
                         }`}
                         key={page.name}
                     >

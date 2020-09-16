@@ -163,6 +163,7 @@ li {
 nav span {
   color: var(--grey)
 }
+
 nav a:hover {
   text-decoration: none;
 }
@@ -329,10 +330,6 @@ a {
 	
 }
 
-.navActive {
-  color: var(--secondary);
-}
-
 li {
   list-style: none;
 }
@@ -497,6 +494,6 @@ footer ul {
   
 }
 
-.navActive {
-  color: var(--secondary);
+.navActive span {
+  color: rgb(209, 167, 29) !important;
 }
