@@ -24,7 +24,7 @@
   After navigating to the homepage of the porfolio. Click on the various 'tabs' in the navigation to see addtional information. Such as the an about me page, portfolio page, contact page, and a page to view my resume.
   
   ## Image
-    ![preview](./src/assets/images/portfolio-preview.JPG)
+   ![preview](./src/assets/images/portfolio-preview.JPG)
    
   ## License
 
