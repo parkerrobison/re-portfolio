@@ -1,12 +1,10 @@
 import React from 'react';
-// import prResume from '../../assets/Resume/ParkerRobisonResume.pdf'
-import prResume from '../../utils/resume.json'
-// WHEN I am presented with the Resume section
-// THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+import prResume from '../../utils/resume.json';
+
 
 function Resume() {
 return(
-    <section>
+    <section className="section-wrapper">
         <h2>Resume</h2>
         <a className= 'resume-download' href={prResume[0].filePath} download>
             Download my resume

@@ -5,7 +5,6 @@ import {Row, Col, Container} from 'reactstrap';
 function Project() {
     return(
         <Container>
-            {/* <div className='project-container'> */}
             <Row>
                 {projects.map((p, i) => {
                     return(
@@ -15,13 +14,12 @@ function Project() {
                                 alt={p.ProjectName}
                                 className= "img-thumbnail project-image mx-1" 
                             />
-                            <a href={p.githubRepo} target='_blank' rel="noopener noreferrer" className="gh-link">GitHub Repo</a>
+                            <a href={p.githubRepo} target='_blank' rel="noopener noreferrer" className="gh-link">GitHub</a>
                             <a href={p.deployedApp} target='_blank' rel="noopener noreferrer" className="site-link">Website</a>
                         </Col>)
 
                 })}
                 </Row>
-             {/* </div> */}
             </Container>
     )
 }

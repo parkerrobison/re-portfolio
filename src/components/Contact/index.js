@@ -1,13 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers'
 
-// WHEN I am presented with the Contact section
-// THEN I see a contact form with fields for a name, an email address, and a message
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
-// WHEN I enter text into the email address field
-// THEN I receive a notification if I have entered an invalid email address
-
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
@@ -40,7 +33,7 @@ function ContactForm() {
         console.log(formState);
     }
     return(
-        <section className='contact-container'>
+        <section className='contact-container section-wrapper'>
             <h1>Contact me</h1>
             <p>If you'd like to reach out to me please email me at parkerobison@gmail.com</p>
             <form id='contact-form' onSubmit={handleSubmit}>

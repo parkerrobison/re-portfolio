@@ -5,12 +5,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --light: #fafafa;
   --darker: #111111;
-  --error: rgb(228, 46, 1);
   --dark: rgb(93, 92, 97); 
   --grey: rgb(147, 142, 148);
   --stormy:rgb(115, 149, 174);
@@ -85,30 +80,22 @@ p {
 }
 
 a {
-  color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  /* background-image: linear-gradient(to bottom right,var(--desert), var(--stormy),var(--dark)); */
   background-color: var(--sea);
   color: var(--desert);
   font-family: Verdana; 
   padding: 25px;
-  /* border-bottom: 7px solid var(--sea); */
 }
 
-header a {
-  color: var(--light);
+header h1 {
+  color:rgb(209, 167, 29);
 }
-
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -118,7 +105,6 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
 }
 
 button:hover {
@@ -152,7 +138,6 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -166,6 +151,7 @@ nav span {
 
 nav a:hover {
   text-decoration: none;
+  color: rgb(209, 167, 29)
 }
 
 nav  li {
@@ -178,13 +164,6 @@ textarea {
 	border: 3px solid #cccccc;
 	padding: 5px;
 }
-
-/* .container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .flex-row {
   display: flex;
@@ -199,51 +178,6 @@ textarea {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-}
-
 .portrait {
   object-fit: cover;
   border-radius: 50%;
@@ -255,12 +189,9 @@ textarea {
   width: 25%;
   text-align: center;
 }
-.gh-link, .site-link {
-  color: var(--darker);
-}
+
 .project-container {
   display: flex;
-  
 }
 
 .project-wrapper {
@@ -272,18 +203,10 @@ textarea {
   height: 100px;
   object-fit: scale-down;
   margin-bottom: 50px;
-  cursor: pointer;
   background-color: var(--stormy);
   border: none;
   background-image: linear-gradient(to top left, var(--dark), var(--stormy), var(--desert));
 }
-
-/* .project-image {
-  float: left;
-  width:  100px;
-  height: 100px;
-  object-fit: cover;
-} */
 
 .modalBackdrop {
 	background: rgba(0, 0, 0, .65);
@@ -312,7 +235,6 @@ textarea {
 }
 
 button {
-	background: var(--primary);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -323,33 +245,12 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
-}
-
 li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
-}
-
 nav  li {
   cursor: pointer;
-}
-
-textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
 }
 
 .container {
@@ -426,33 +327,6 @@ textarea {
   width: auto;
   height: 300px;
   margin-bottom: 50px;
-  cursor: pointer;
-}
-
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
 }
 
 button {
@@ -472,9 +346,15 @@ a {
 	color: var(--grey);
 	font-weight: 600;
 	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(239, 192, 35);
+}
+
+.gh-link, .site-link {
+  color: rgb(209, 167, 29);
 }
 
 .contact-container {
@@ -493,8 +373,16 @@ footer {
 }
 footer ul {
   justify-content: center;
-  text-align: center;
-  
+  text-align: center; 
+}
+
+.section-wrapper {
+  padding: 15px;
+  border: 5px solid var(--sea);
+  border-radius: 10px;
+}
+.error-text {
+  color: rgb(168, 33, 33);
 }
 
 .navActive span {

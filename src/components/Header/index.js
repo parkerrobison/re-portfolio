@@ -1,10 +1,6 @@
 import React from 'react';
 import Navigation from '../Navigation';
 
-// WHEN I view the header
-// THEN I am presented with the developer's name and navigation
-// with titles corresponding to different sections of the portfolio
-
 function Header (props) {
     return(
         <header className='flex-row'>
