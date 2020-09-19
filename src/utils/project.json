@@ -1,41 +1,41 @@
 [
     {
         "ProjectName": "Workday-Scheduler",
-        "imagePath": "/images/projects/5.jpg",
+        "imagePath": "re-portfolio/images/projects/5.jpg",
         "githubRepo": "https://github.com/parkerrobison/work-day-planner",
         "deployedApp": "https://parkerrobison.github.io/work-day-planner/"
     },
 
     {
         "ProjectName": "Swap-Squad",
-        "imagePath": "/images/projects/4.jpg",
+        "imagePath": "re-portfolio/images/projects/4.jpg",
         "githubRepo": "https://github.com/parkerrobison/swap-squad",
         "deployedApp": "https://obscure-reef-91673.herokuapp.com/"
     },
 
     {
         "ProjectName": "Run-Buddy",
-        "imagePath": "/images/projects/3.jpg",
+        "imagePath": "re-portfolio/images/projects/3.jpg",
         "githubRepo": "https://github.com/parkerrobison/run-buddy",
         "deployedApp": "https://parkerrobison.github.io/run-buddy/"
     },
 
     {
         "ProjectName": "Note-Taker",
-        "imagePath": "/images/projects/2.jpg",
+        "imagePath": "re-portfolio/images/projects/2.jpg",
         "githubRepo": "https://github.com/parkerrobison/note-taker",
         "deployedApp": "https://vast-citadel-37246.herokuapp.com/"
     },
 
     {
         "ProjectName": "Just-Breathe",
-        "imagePath": "/images/projects/1.jpg",
+        "imagePath": "re-portfolio/images/projects/1.jpg",
         "githubRepo": "https://github.com/parkerrobison/just-breathe",
         "deployedApp": "https://parkerrobison.github.io/just-breathe/"
     },
     {
         "ProjectName": "Git-it-Done",
-        "imagePath": "/images/projects/0.jpg",
+        "imagePath": "re-portfolio/images/projects/0.jpg",
         "githubRepo": "https://github.com/parkerrobison/git-it-done",
         "deployedApp": "https://parkerrobison.github.io/git-it-done/"
     }
