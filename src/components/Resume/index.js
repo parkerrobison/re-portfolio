@@ -1,11 +1,14 @@
 import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import prResume from '../../utils/resume.json';
 
 
 function Resume() {
 return(
-    <section className="section-wrapper">
-        <h2>Resume</h2>
+    <Container className="section-wrapper">
+        <Row>
+            <Col>
+            <h2>Resume</h2>
         <a className= 'resume-download' href={prResume[0].filePath} download>
             Download my resume
         </a>
@@ -30,7 +33,9 @@ return(
                 <li>NoSQL</li>
             </ul>
         </div>
-    </section>
+            </Col>
+        </Row>
+    </Container>
 )
 
 }

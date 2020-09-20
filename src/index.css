@@ -32,7 +32,8 @@ body {
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
-  background-image: linear-gradient(to bottom right, var(--dark), var(--stormy), var(--desert));
+  background-image: linear-gradient(to bottom right, white, var(--grey));
+  /* background-image: linear-gradient(to bottom right, var(--dark), var(--stormy), var(--desert)); */
   color: var(--darker);
   font-family: Arial;
 
@@ -159,7 +160,7 @@ nav  li {
 }
 
 textarea {
-	width: 600px;
+	width: 250%;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -199,13 +200,14 @@ textarea {
   flex: initial;
 }
 .img-thumbnail {
-  width: 100px;
+  width: 100%;
   height: 100px;
   object-fit: scale-down;
   margin-bottom: 50px;
   background-color: var(--stormy);
   border: none;
-  background-image: linear-gradient(to top left, var(--dark), var(--stormy), var(--desert));
+  /* background-image: linear-gradient(to top left, var(--dark), var(--stormy), var(--desert)); */
+  
 }
 
 .modalBackdrop {
@@ -354,7 +356,7 @@ a:hover {
 }
 
 .gh-link, .site-link {
-  color: rgb(209, 167, 29);
+  color: var(--sea);
 }
 
 .contact-container {
@@ -368,7 +370,12 @@ a:hover {
 
 footer {
   background-color: var(--sea);
-  padding: 22px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
   
 }
 footer ul {
@@ -380,6 +387,8 @@ footer ul {
   padding: 15px;
   border: 5px solid var(--sea);
   border-radius: 10px;
+  height: 300%;
+  margin-bottom: 25px;
 }
 .error-text {
   color: rgb(168, 33, 33);

@@ -8,7 +8,7 @@ function Project() {
             <Row>
                 {projects.map((p, i) => {
                     return(
-                        <Col className='project-wrapper' key={i} md={4}>
+                        <Col md="6" className='project-wrapper' key={i} md={4}>
                             <h2>{p.ProjectName}</h2>
                             <img src={p.imagePath} 
                                 alt={p.ProjectName}
