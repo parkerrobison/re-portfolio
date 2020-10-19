@@ -1,7 +1,7 @@
 [
     {
         "ProjectName": "RoloDeck",
-        "imagePath": "/re-portfolio/images/projects/6.JPG",
+        "imagePath": "/re-portfolio/images/projects/6.jpg",
         "githubRepo": "https://github.com/parkerrobison/Roll-a-Jazz",
         "deployedApp": "https://rolodeck.herokuapp.com/"
     },
