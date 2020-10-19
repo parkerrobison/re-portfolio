@@ -1,9 +1,9 @@
 [
     {
-        "ProjectName": "Workday-Scheduler",
-        "imagePath": "/re-portfolio/images/projects/5.jpg",
-        "githubRepo": "https://github.com/parkerrobison/work-day-planner",
-        "deployedApp": "https://parkerrobison.github.io/work-day-planner/"
+        "ProjectName": "RoloDeck",
+        "imagePath": "/re-portfolio/images/projects/6.jpg",
+        "githubRepo": "https://github.com/parkerrobison/Roll-a-Jazz",
+        "deployedApp": "https://rolodeck.herokuapp.com/"
     },
 
     {
@@ -14,10 +14,10 @@
     },
 
     {
-        "ProjectName": "Run-Buddy",
-        "imagePath": "/re-portfolio/images/projects/3.jpg",
-        "githubRepo": "https://github.com/parkerrobison/run-buddy",
-        "deployedApp": "https://parkerrobison.github.io/run-buddy/"
+        "ProjectName": "Workday-Scheduler",
+        "imagePath": "/re-portfolio/images/projects/5.jpg",
+        "githubRepo": "https://github.com/parkerrobison/work-day-planner",
+        "deployedApp": "https://parkerrobison.github.io/work-day-planner/"
     },
 
     {
