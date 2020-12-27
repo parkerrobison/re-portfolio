@@ -14,9 +14,10 @@ function About() {
                 </Col>
                 <Col sm="9">
                     <p style={{ marginTop: '10%'}}>
-                        Hello! My name is Parker Robison. I enjoy coding, being outdoors, photography, and being active. I graduated from USU with a Bachelors degree in Kinesiology. In desiring to further my education and expand my skills,
-                        I enrolled in the University of Utah's coding bootcamp. I will soon be graduating from the bootcamp and will continue developing my coding skills. As a full stack developer, 
-                        I'm focused on developing inspiring and helpful applications and websites. 
+                        Hello! My name is Parker Robison. I am a Full Stack Developer and I’m seeking to apply my skills with a quality driven team to create remarkable user experiences. 
+                        I recently earned a certificate in full stack development from the University of Utah. I am familiar with Javascript, CSS, React.js, Node.js and mySQL. 
+                        I have exceptional organizational skills, a commitment to developing solid apps, and a determination to learn new technologies.
+                        Aside from coding, I enjoy hiking, baking, watching movies, photography, listening to music, and being active in general. 
                     </p>
                 </Col>
             </Row>
