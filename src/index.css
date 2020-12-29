@@ -1,20 +1,18 @@
-
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 }
 :root {
   --darker: #111111;
-  --dark: rgb(93, 92, 97); 
+  --dark: rgb(93, 92, 97);
   --grey: rgb(147, 142, 148);
-  --stormy:rgb(115, 149, 174);
+  --stormy: rgb(115, 149, 174);
   --sea: rgb(35, 72, 99);
   --desert: rgb(176, 162, 149);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -36,7 +34,6 @@ body {
   /* background-image: linear-gradient(to bottom right, var(--dark), var(--stormy), var(--desert)); */
   color: var(--darker);
   font-family: Arial;
-
 }
 
 h1,
@@ -45,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   margin: 5px 0;
   line-height: 1.25;
@@ -90,18 +87,18 @@ header {
   justify-content: space-between;
   background-color: var(--sea);
   color: var(--desert);
-  font-family: Verdana; 
+  font-family: Verdana;
   padding: 25px;
 }
 
 header h1 {
-  color:rgb(209, 167, 29);
+  color: rgb(209, 167, 29);
 }
 button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -109,12 +106,12 @@ button {
 }
 
 button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 img {
@@ -139,7 +136,7 @@ input {
 }
 
 input:focus {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -147,23 +144,23 @@ li {
 }
 
 nav span {
-  color: var(--grey)
+  color: var(--grey);
 }
 
 nav a:hover {
   text-decoration: none;
-  color: rgb(209, 167, 29)
+  color: rgb(209, 167, 29);
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
 textarea {
-	width: 250%;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+  width: 250%;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
 }
 
 .flex-row {
@@ -207,51 +204,50 @@ textarea {
   background-color: var(--stormy);
   border: none;
   /* background-image: linear-gradient(to top left, var(--dark), var(--stormy), var(--desert)); */
-  
 }
 
 .modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
+  background: var(--darker);
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 960px;
 }
 
 .modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
 button {
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 li {
   list-style: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
@@ -332,22 +328,22 @@ nav  li {
 }
 
 button {
-	background: var(--sea);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+  background: var(--sea);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 a {
-	border-radius: 5px;
-	color: var(--grey);
-	font-weight: 600;
-	padding: 2px 4px;
+  border-radius: 5px;
+  color: var(--grey);
+  font-weight: 600;
+  padding: 2px 4px;
 }
 
 a:hover {
@@ -355,7 +351,8 @@ a:hover {
   color: rgb(239, 192, 35);
 }
 
-.gh-link, .site-link {
+.gh-link,
+.site-link {
   color: var(--sea);
 }
 
@@ -376,11 +373,10 @@ footer {
   bottom: 0;
   text-align: center;
   width: 100%;
-  
 }
 footer ul {
   justify-content: center;
-  text-align: center; 
+  text-align: center;
 }
 
 .section-wrapper {
@@ -396,4 +392,8 @@ footer ul {
 
 .navActive span {
   color: rgb(209, 167, 29) !important;
+}
+
+.project-row {
+  justify-content: space-around;
 }

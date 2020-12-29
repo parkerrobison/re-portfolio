@@ -30,7 +30,7 @@
         "ProjectName": "Note-Taker",
         "imagePath": "/re-portfolio/images/projects/2.jpg",
         "description": "A 'no fuss' note taking app that allows a user to create and manage notes easily.",
-        "technologies": "4",
+        "technologies": "HTML, CSS, JS, and Express.js.",
         "githubRepo": "https://github.com/parkerrobison/note-taker",
         "deployedApp": "https://vast-citadel-37246.herokuapp.com/"
     },
@@ -39,7 +39,7 @@
         "ProjectName": "Just-Breathe",
         "imagePath": "/re-portfolio/images/projects/1.jpg",
         "description": "An application that uses third-party APIs to display air quality index, pollen count and temperature of a city.",
-        "technologies": "Third party APIs, Materialize, HTML, CSS, and JS",
+        "technologies": "Third party APIs, Materialize, HTML, CSS, and JS.",
         "githubRepo": "https://github.com/parkerrobison/just-breathe",
         "deployedApp": "https://parkerrobison.github.io/just-breathe/"
     },
@@ -47,7 +47,7 @@
         "ProjectName": "Git-it-Done",
         "imagePath": "/re-portfolio/images/projects/0.jpg",
         "description": "A website that helps developers find GitHub projects that have open issues that they can contribute to.",
-        "technologies": "6",
+        "technologies": "HTML, CSS, JS, and third party APIs.",
         "githubRepo": "https://github.com/parkerrobison/git-it-done",
         "deployedApp": "https://parkerrobison.github.io/git-it-done/"
     }
